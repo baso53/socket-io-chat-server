@@ -21,17 +21,9 @@ io.on("connection", (socket) => {
 
 });
 
-app.get("/*", (req, res) => res.send("You have reached a Socket.io server"));
+app.get("/", (req, res) => res.send("You have reached a Socket.io server"));
+app.get("/*", (req, res) => res.redirect("/"));
 
 http.listen(app.get('port'), () => {
   console.log("Express server listening on port " + app.get('port'));
 });
-
-
-
-
-
-
-//http.createServer(app).listen(app.get('port'), function(){
-//  console.log("Express server listening on port " + app.get('port'));
-//});
