@@ -1,0 +1,32 @@
+{
+  "name": "socket-chat-server-express",
+  "version": "0.0.1",
+  "description": "A simple Socket.io chat server.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baso53/socket-chat-server-express.git"
+  },
+  "keywords": [
+    "socket.io",
+    "socket",
+    "chat",
+    "node",
+    "express"
+  ],
+  "author": "Sebastijan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baso53/socket-chat-server-express/issues"
+  },
+  "homepage": "https://github.com/baso53/socket-chat-server-express#readme"
+}
